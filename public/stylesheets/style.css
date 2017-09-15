@@ -1,0 +1,35 @@
+body {
+    color: #777;
+    font-size: 12px;
+    font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+
+a {
+  color: #00B7FF;
+}
+
+.weather-widget {
+    margin: 0;
+    width: 590px;
+    height: 125px;
+    padding: 7px;
+    float: left;
+}
+
+
+.weather-widget .col {
+    width: 75px;
+    height: 100%;
+    float:left;
+    text-align: center;
+}
+
+.weather-widget .col.first {
+    width: 175px;
+    text-align: left;
+}
+
+.weather-widget .col.first h3 {
+    margin: 0;
+    padding: 0;
+}
